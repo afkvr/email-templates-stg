@@ -5,10 +5,11 @@
   </head>
   <body>
     <h2>Welcome to Midnight Society!</h2>
+    <img src="https://vsm-nft-fe.vercel.app/images/auth/Logo_MS_2022.png" width="500" height="158" alt="Midnight Society logo" />
     <p>Use this link to verify your email:</p>
     <p>
       <a
-        href="${serverUrl}/verify?&ticket=${ticket}&type=emailVerify&redirectTo=${redirectTo}"
+        href="https://vsm-nft-fe.vercel.app/api/emailVerify?ticket=${ticket}&type=emailVerify&redirectTo=${redirectTo}"
       >
         Verify Email
       </a>
